@@ -31,6 +31,8 @@ A clustering algorithm, “k-means”, was used to group the neighbourhoods in o
 ### Steps for Clustering Ottawa Wards
 The steps below were used to segment the wards:
 
+Check out the Jupyter Notebook for step-step analysis - [NOTEBOOK](https://github.com/Lekan-E/Analysis-of-Ottawa-Neighbourhoods-by-Safety/blob/main/Analysis%20of%20Ottawa%20Safety%20using%20ML.ipynb)
+
 1. Data Wrangling: 
     - This process involves combined and aggregated all the records by ward, counting each crime type (e.g., Hate Crime, Auto Theft) to create a single DataFrame with individual safety types as columns.
 
@@ -43,8 +45,6 @@ The steps below were used to segment the wards:
     - Compared the average number of crimes per group to evaluate and interpret the clusters.
 
     ![alt](https://github.com/Lekan-E/Analysis-of-Ottawa-Neighbourhoods-by-Safety/blob/2e1c8ef692d1dee3fea4f5674b7868be050cb4a4/Images/thredcluster.png)
-
-Check out the Jupyter Notebook for step-step analysis - [NOTEBOOK](https://github.com/Lekan-E/Analysis-of-Ottawa-Neighbourhoods-by-Safety/blob/main/Analysis%20of%20Ottawa%20Safety%20using%20ML.ipynb)
 
 
 ## Insights Deep-Dive
