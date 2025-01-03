@@ -84,4 +84,28 @@ The clustering results ranked wards into six categories of safety. The clusters 
     - Cluster 0 (blue): Bay, College, Knoxdale-Merivale, River, Alta Vista, Beacon Hill-Cyrville, Rideau-Rockcliffe
     - Cluster 4 (light green): Orleans West-Innes, Osgoode, Riverside South-Findlay Creek, Rideau-Jock, Stittsville, Kanata South, Kanata North, West Carleton-March
 
-
+Order rank of each 23 wards from safest to most dangerous sorted by a generated safety score.
+1. West Carleton-March - 293.05
+2. Rideau-Jock - 401.90
+3. Osgoode - 540.45
+4. Riverside South-Findlay Creek - 550.45
+5. Stittsville - 731.95
+6. Kanata North	- 750.90
+7. Barrhaven East - 785.70
+8. Orléans East-Cumberland - 817.30
+9. Orléans West-Innes - 846.75
+10. Kanata South - 894.25
+11. Barrhaven West - 1048.75
+12.	Orléans South-Navan - 1175.20
+13.	Knoxdale-Merivale - 1289.60
+14.	River - 1652.45
+15.	Beacon Hill-Cyrville - 1687.35
+16.	Gloucester-Southgate - 1809.85
+17.	Rideau-Rockcliffe - 1879.70
+18.	College - 1916.05
+19.	Bay	- 1920.15
+20.	Alta Vista - 1944.75
+21.	Kitchissippi - 2075.85
+22.	Capital - 2116.85
+23.	Somerset - 6618.55
+24.	Rideau-Vanier - 6689.85
