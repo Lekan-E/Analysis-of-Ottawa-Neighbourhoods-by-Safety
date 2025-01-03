@@ -34,7 +34,7 @@ The steps below were used to segment the wards:
 Check out the Jupyter Notebook for step-step analysis - [NOTEBOOK](https://github.com/Lekan-E/Analysis-of-Ottawa-Neighbourhoods-by-Safety/blob/main/Analysis%20of%20Ottawa%20Safety%20using%20ML.ipynb)
 
 1. Data Wrangling: 
-    - This process involves combined and aggregated all the records by ward, counting each crime type (e.g., Hate Crime, Auto Theft) to create a single DataFrame with individual safety types as columns.
+    - This process involves combined and aggregated all the records by ward, counting each crime type (e.g., Hate Crime, Auto Theft) to create a single DataFrame with individual safety types as columns
 
     ![alt](https://github.com/Lekan-E/Analysis-of-Ottawa-Neighbourhoods-by-Safety/blob/6b0901e5d5d9f482be54b07e2f5e97cc7c3354d3/Images/image.png)
 
