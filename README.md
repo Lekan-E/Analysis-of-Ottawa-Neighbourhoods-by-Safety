@@ -44,6 +44,9 @@ The steps below were used to segment the wards:
 
     ![alt](https://github.com/Lekan-E/Analysis-of-Ottawa-Neighbourhoods-by-Safety/blob/2e1c8ef692d1dee3fea4f5674b7868be050cb4a4/Images/thredcluster.png)
 
+Check out the Jupyter Notebook for step-step analysis - [HERE]()
+
+
 ## Insights Deep-Dive
 From the results of the analysis, the following insights were derived about Ottawa’s neighborhoods:
 
@@ -68,8 +71,6 @@ The final safety rankings were visualized on a map using GeoPandas.
 
 ![alts text](https://github.com/Lekan-E/Analysis-of-Ottawa-Neighbourhoods-by-Safety/blob/abbe9f00112a2091c6a5e5208ec2fbf2d7e2131c/Images/clustermap2.png)
 
-
-## Results
 The clustering results ranked wards into six categories of safety. The clusters and their respective safety levels are as follows:
 
 - Most Dangerous Wards:
@@ -84,7 +85,8 @@ The clustering results ranked wards into six categories of safety. The clusters 
     - Cluster 0 (blue): Bay, College, Knoxdale-Merivale, River, Alta Vista, Beacon Hill-Cyrville, Rideau-Rockcliffe
     - Cluster 4 (light green): Orleans West-Innes, Osgoode, Riverside South-Findlay Creek, Rideau-Jock, Stittsville, Kanata South, Kanata North, West Carleton-March
 
-Order rank of each 23 wards from safest to most dangerous sorted by a generated safety score.
+## Safety Rank
+An ordered rank of each 23 wards from safest to most dangerous sorted by a generated safety score.
 1. West Carleton-March - 293.05
 2. Rideau-Jock - 401.90
 3. Osgoode - 540.45
