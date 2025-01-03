@@ -22,7 +22,7 @@ The data for this project was obtained from the Ottawa Police Data Portal and in
 2. Criminal Incident Records:
     - Reports for each crime type (Auto Theft, Bike Theft, Criminal Offenses, Hate Crime, Homicide, and Shootings), which served as benchmarks for the analysis.
 
-All datasets are available in the 'Data' folder.
+All datasets are available in the 'Data' folder. - [DATA](https://github.com/Lekan-E/Analysis-of-Ottawa-Neighbourhoods-by-Safety/tree/main/Data)
 
 ## Machine Learning
 ### Clustering Ottawa Wards
@@ -44,7 +44,7 @@ The steps below were used to segment the wards:
 
     ![alt](https://github.com/Lekan-E/Analysis-of-Ottawa-Neighbourhoods-by-Safety/blob/2e1c8ef692d1dee3fea4f5674b7868be050cb4a4/Images/thredcluster.png)
 
-Check out the Jupyter Notebook for step-step analysis - [HERE]()
+Check out the Jupyter Notebook for step-step analysis - [NOTEBOOK](https://github.com/Lekan-E/Analysis-of-Ottawa-Neighbourhoods-by-Safety/blob/main/Analysis%20of%20Ottawa%20Safety%20using%20ML.ipynb)
 
 
 ## Insights Deep-Dive
