@@ -13,7 +13,6 @@ The goal of this project was to analyze all 23 Ottawa wards, grouping and rankin
 - Homicide
 - Shootings
 
-
 ## Data Structure
 The data for this project was obtained from the Ottawa Police Data Portal and includes:
 1. Neighborhood Boundaries Map (GeoJSON):
@@ -38,12 +37,15 @@ The steps below were used to segment the wards:
 1. Data Wrangling: 
     - This process involves combined and aggregated all the records by ward, counting each crime type (e.g., Hate Crime, Auto Theft) to create a single DataFrame with individual safety types as columns.
 
+    ![alt](https://github.com/Lekan-E/Analysis-of-Ottawa-Neighbourhoods-by-Safety/blob/6b0901e5d5d9f482be54b07e2f5e97cc7c3354d3/Images/image.png)
+
 2. Determine the Optimal Number of Clusters:
     - Used the “Elbow Method” to find the ideal number of clusters. While the first elbow suggested three clusters, I opted for six to provide a more granular grouping.
 
 3. Cluster Analysis:
     - Compared the average number of crimes per group to evaluate and interpret the clusters.
 
+    !['alt'](https://github.com/Lekan-E/Analysis-of-Ottawa-Neighbourhoods-by-Safety/blob/6b0901e5d5d9f482be54b07e2f5e97cc7c3354d3/Images/distribution.png)
 
 ## Results
 The clustering results ranked wards into six categories of safety. The clusters and their respective safety levels are as follows:
@@ -61,14 +63,6 @@ The clustering results ranked wards into six categories of safety. The clusters 
     - Cluster 4 (light green): Orleans West-Innes, Osgoode, Riverside South-Findlay Creek, Rideau-Jock, Stittsville, Kanata South, Kanata North, West Carleton-March
 
 The final safety rankings were visualized on a map using GeoPandas.
-
-Below are the cluster and their corresponding wards:
-3 - Rideau-Vanier
-1 - Somerset
-5 - Gloucester-Southgate
-2 - Barrhaven West, Kitchissippi, Capital, Orlean East-Cumberland, Orleans South-Navan
-0 - Bay, College, Knoxdale-Merivale, River, Alta Vista, Beacon Hill-Cyrville, Rideau-Rockcliffe
-4 - Orlean West-Innes, Osgode, Riverside South-Findlay Creek, Rideau-Jock, Stittsville, Kanata South, Kanata North, West Carleton-March
 
 ![alts text](https://github.com/Lekan-E/Analysis-of-Ottawa-Neighbourhoods-by-Safety/blob/abbe9f00112a2091c6a5e5208ec2fbf2d7e2131c/Images/clustermap2.png)
 
